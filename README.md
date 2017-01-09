@@ -28,4 +28,4 @@ $ npm start
 文章有更新，关于文件hash的问题，希望大家能注意：https://segmentfault.com/a/1190000005969488#articleHeader15
 
 https://github.com/xiaoyann/webpack-react-redux-es6-boilerplate -- 搭建参考项目
-使用第三方包：react-router  ant-design
+使用第三方包：react-router  ant-design redux
