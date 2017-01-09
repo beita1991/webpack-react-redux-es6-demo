@@ -57,6 +57,7 @@
     "webpack-md5-hash": "0.0.5"
   },
   "dependencies": {
+    "antd": "^2.6.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "react-redux": "^4.4.5",

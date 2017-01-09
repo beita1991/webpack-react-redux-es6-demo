@@ -8,6 +8,7 @@ import thunk from 'redux-thunk';
 import { Router, Route, IndexRoute, browserHistory, Link } from 'react-router';
 import reducers from 'reducers/index';
 import '../css/common.scss';
+import 'antd/dist/antd.css';
 
 // pages
 import Page1 from './page1/index';
@@ -17,12 +18,12 @@ import Page3 from './page3/index';
 class Application extends Component {
   render() {
     return (
-      <div> 
+      <div>
         <div className="header">
           <Link to="page1">page1</Link>
           <Link to="page2">page2</Link>
           <Link to="page3">page3</Link>
-        </div>  
+        </div>
         {this.props.children}
       </div>
     );
